@@ -58,7 +58,7 @@ Now all operations either succeed together or fail together, guaranteeing data c
 
 > To keep the example short, I will only show the Product entity along with the implementation of the Generic Repository and Unit of Work. In this example, I will use Blazor and .NET 9. 
 
-You can access the sample project here . 
+You can access the sample project here https://github.com/m-aliozkaya/UnitOfWorkDemo. 
 
 ### 1. Generic Repository Implementation
 
