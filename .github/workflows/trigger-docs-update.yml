@@ -19,7 +19,7 @@ jobs:
       
       - name: Trigger docs repository
         run: |
-          curl -X POST \
+          curl -f -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ steps.generate-token.outputs.token }}" \
             https://api.github.com/repos/m-aliozkaya/docs-rep/dispatches \
